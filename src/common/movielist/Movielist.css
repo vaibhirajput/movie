@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+.movielistdiv{
+    width: 100vw;
+    height: auto;
+    /* border: 2px solid black; */
+    display: flex;
+    margin-top: 40px;
+    overflow: hidden;
+
+}
+
+.movielist{
+width: 70vw;
+height: 100%;
+/* border: 2px solid rgb(34, 132, 21); */
+display: grid;
+grid-template-columns: auto auto auto;
+box-sizing: border-box;
+
+}
+.movies{
+    width: 20vw;
+    height: 60vh;
+    /* border: 2px solid yellow; */
+    margin: 10px;
+}
+.movies img{
+    width: 100%;
+    height: 100%;
+}
+
+.moviefilter{
+    width: 27vw;
+    height: 80vh;
+    border: 2px solid rgba(172, 169, 169, 0.638);
+    padding: 30px;
+    box-sizing: border-box;
+    font-size: 1.2rem;
+    color: blue;
+    box-shadow: -3px 3px 3px rgba(172, 169, 169, 0.638);
+    border-radius: 5px;
+}
+
+.filter{
+    margin-top: 40px;
+    border-bottom: 2px solid rgba(139, 137, 137, 0.567);
+}
+.filter input{
+    border: none;
+    font-size: 1.2rem;
+    width: 95%;
+    padding: 10px;
+    
+}
+input:focus{
+outline: none;
+    
+}

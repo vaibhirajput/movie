@@ -1,0 +1,33 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+#header{
+    display: flex;
+    align-items: center;
+    background-color: #222;
+    height: 80x;
+    padding: 8px 32px 8px 20px;
+}
+.logo{
+    width: 60px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #ff7f7f;
+    animation: mymove 8s infinite linear;
+}
+@keyframes mymove {
+  from {
+        transform: rotate(0deg);
+      }
+      to {
+        transform: rotate(360deg);
+      }
+    }
+.logo img{
+    width: 90%;
+    height: 90%;
+}

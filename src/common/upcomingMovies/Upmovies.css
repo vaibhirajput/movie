@@ -1,0 +1,63 @@
+*{
+margin: 0;
+padding: 0;
+
+}
+#upcomigMovie{
+    width: 100%;
+    height: auto;
+    /* border: 2px solid blue; */
+    overflow: hidden;
+}
+
+#heading{
+    text-align: center;
+    background-color: #ff9999;
+    padding: 8px;
+    font-size: 1.1rem;
+    
+    }
+
+
+#upcomingmovies{
+    width: 100%;
+    height: 30%;
+    /* border: 5px solid rgb(87, 210, 16); */
+    display: flex;
+    overflow-y: hidden;
+    overflow-x: scroll;
+    white-space: nowrap;
+    scroll-behavior: smooth;
+   
+}
+.topmovies{
+ width: 20vw;
+ height: 22vw;
+ /* border: 1px solid rgb(231, 11, 11); */
+ /* z-index: 9999; */
+ position: relative;
+ margin: 5px;
+}
+.topmovies img {
+    width: 20vw;
+    height: 100%;
+    
+}
+
+.movietitle{
+position: absolute;
+width: 100%;
+height: 50px;
+bottom: 0px;
+left: 0px;
+padding: 15px;
+box-sizing: border-box;
+background-color: rgba(0, 0, 0, 0.621);
+color: rgba(255, 255, 255, 0.622);
+z-index: 9999;
+
+}
+.movietitle:hover{
+    background-color: rgba(0, 0, 0, 0.851);
+    color: white;
+}
